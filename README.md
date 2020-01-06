@@ -1,4 +1,1 @@
-# lee-testing-wp
-# lee-testing-wp
-# leebtest
-# leebtest
+#Test uploading of custom site
