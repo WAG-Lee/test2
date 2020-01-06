@@ -1,0 +1,56 @@
+/*
+Theme Name: Template
+Author: We Are Go - Mark Feltwell
+Author URI: https://www.wearegomarketing.com/
+Description: Web Design | Brand Identity | Social Media - Birmingham, West Midlands
+Version: 1.0
+Tags:
+Text Domain: WRG_template
+*/
+
+/* Template Style */
+
+@import url("css/root.css");
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+/* Global ____________________________________________________________________*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.standard {
+	margin: 6.25rem 0;
+	position: relative;
+}
+
+ul.ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.ul-inline li {
+	display: inline-block;
+}
+
+a {
+	transition: 0.15s;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
+/* Section ___________________________________________________________________*/

@@ -1,0 +1,82 @@
+/* Change background color and font family */
+body {
+    font-family: "Lato", sans-serif;
+
+    background: linear-gradient(318deg, #282927, #515945, #4f4f4f, #7c7c7c, #939393);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: RotaryCreative 32s ease infinite;
+    -moz-animation: RotaryCreative 32s ease infinite;
+    animation: RotaryCreative 32s ease infinite;
+  }
+
+  @-webkit-keyframes RotaryCreative {
+      0%{background-position:0% 96%}
+      50%{background-position:100% 5%}
+      100%{background-position:0% 96%}
+  }
+  @-moz-keyframes RotaryCreative {
+      0%{background-position:0% 96%}
+      50%{background-position:100% 5%}
+      100%{background-position:0% 96%}
+  }
+  @keyframes RotaryCreative {
+      0%{background-position:0% 96%}
+      50%{background-position:100% 5%}
+      100%{background-position:0% 96%}
+  }
+
+  /* Change Width and Height of Logo Image + Add Custom Image File */
+  .login h1 a {
+    background-image: url(logo.png);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  /* Add a few changes to the color and style of form itself */
+  .login label {
+    color: #454545;
+    display: block;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+
+  .login > p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .login form .input {
+    font-weight: normal;
+  }
+
+  .login #backtoblog a, .login #nav a {
+    color: #fff;
+  }
+
+  .wp-core-ui .button-primary {
+    background: #697853;
+    border-color: #4e5a3d #5b6748 #5b6748;
+    -webkit-box-shadow: 0 1px 0 #5b6748;
+    box-shadow: 0 1px 0 #5b6748;
+    text-shadow: 0 -1px 1px #5b6748, 1px 0 1px #5b6748, 0 1px 1px #5b6748, -1px 0 1px #5b6748;
+  }
+
+  .login .message {
+    border-left: 4px solid #697853;
+  }
+
+  .wp-core-ui .button-primary:hover {
+    background: #4e5a3d;
+    border-color: #5b6748;
+  }
+
+  a:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .login #backtoblog a:hover, .login #nav a:hover, a.emailLink:hover {
+    color: #697853 !important;
+  }
