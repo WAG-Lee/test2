@@ -32,7 +32,7 @@ define( 'DB_NAME', $WAGDBNAME );
 define( 'DB_USER', $WAGDBUSER );
 define( 'DB_PASSWORD', $WAGDBPASS );
 define( 'DB_HOST', $WAGDBHOST );
-
+// atom is cool //
 } else {
 	// LOCAL DATABASE DETAILS //
 	define( 'DB_NAME', 'local' );
